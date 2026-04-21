@@ -38,3 +38,12 @@ docker rmi XXX  删除不用的镜像
 
 
 你的数据都存在 Docker 容器挂载的 ~/docker-data/postgres 目录里，只要不删除这个目录，数据就不会丢。****
+
+
+
+# 查看当前git的用户列表 
+git config --list | grep user
+# 设置全局用户名
+git config --global user.name "huiminxu"
+# 设置全局邮箱
+git config --global user.email "18888106885@163.com"
