@@ -1,7 +1,7 @@
 
 
 from flask import Flask,Blueprint
-from internal.handler import AppHandler, app_handler
+from internal.handler import AppHandler
 from injector import inject
 from dataclasses import dataclass
 @inject

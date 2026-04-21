@@ -47,3 +47,20 @@ git config --list | grep user
 git config --global user.name "huiminxu"
 # 设置全局邮箱
 git config --global user.email "18888106885@163.com"
+
+
+# openAI 查看所有的模型（测试是否正常链接 openAI）
+
+[//]: # (（developers.openai.com/api/docs/quickstart）)
+
+curl https://api.openai.com/v1/models 
+  -H "Authorization: Bearer $OPENAI_API_KEY"
+
+
+# 查看 openAI 状态监控
+https://status.openai.com/
+
+
+## deepseek api key
+[//]: # (platform.deepseek.com/usage)
+
